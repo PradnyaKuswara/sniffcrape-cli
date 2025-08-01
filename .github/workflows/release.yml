@@ -5,6 +5,9 @@ on:
     tags:
       - 'v*'
 
+permissions:
+  contents: write # ← Diletakkan di sini, sebelum 'jobs'
+
 jobs:
   build:
     name: Build binaries

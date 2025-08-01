@@ -35,3 +35,5 @@ jobs:
             sniffcrape-cli.exe
             sniffcrape-cli-linux
             sniffcrape-cli-mac
+    env:
+      GITHUB_TOKEN: ${{ secrets.APP_TOKEN }}

@@ -1,11 +1,39 @@
-# sniffcrape-cli
+# 🕷️ sniffcrape-cli
 
-📦 CLI tool untuk sniffing + scraping website.
+> Powerful CLI tool to scrape structured data from any website with ease.
 
-## 📥 Install (Windows)
+## 🚀 Installation
 
-Jalankan ini di PowerShell:
+Download the latest release from the [Releases](https://github.com/yourusername/sniffcrape-cli/releases) page, then:
 
-```powershell
-iwr -useb https://raw.githubusercontent.com/PradnyaKuswara/sniffcrape-cli/main/install.ps1 | iex
+```bash
+# On Windows
+sniffcrape-cli.exe
+
+# On Linux/macOS
+chmod +x sniffcrape-cli
+./sniffcrape-cli
+
+```
+
+📦 Features
+🔍 Scrape content from any public URL
+⚡ Fast and lightweight
+🧰 Simple CLI usage
+📁 Output structured data for further processing
+
+```bash
+sniffcrape-cli scrap -u <URL>
+```
+
+Example:
+
+```bash
+sniffcrape-cli scrap -u https://example.com
+```
+
+This command will extract relevant data from the given URL and output the result to the console or file (based on configuration).
+
+```bash
+sniffcrape-cli -h
 ```

@@ -5,7 +5,7 @@ go 1.24.2
 toolchain go1.24.5
 
 require (
-	github.com/PradnyaKuswara/sniffcrape v0.0.0-20250801032320-8b532915768a
+	github.com/PradnyaKuswara/sniffcrape v0.0.0-20250801073628-28c4a2072b25
 	github.com/gocolly/colly v1.2.0
 	github.com/spf13/cobra v1.9.1
 )
